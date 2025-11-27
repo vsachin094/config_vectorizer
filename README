@@ -1,9 +1,6 @@
 # Network Configuration Vectorization and Search
 
-This project provides an end-to-end pipeline to vectorize multi-vendor network device configurations, mask sensitive data, chunk the configs into meaningful sections, generate semantic embeddings using OpenAI's API, and store them into a Redis vector database for efficient similarity search.arkdown
-# Network Configuration Vectorization and Search
-
-This project provides an end-to-end pipeline to vectorize multi-vendor network device configurations, mask sensitive data, chunk the configs into meaningful sections, generate semantic embeddings using OpenAI’s API, and store them into a Redis vector database for efficient similarity search.
+This project provides an end-to-end pipeline to vectorize multi-vendor network device configurations, mask sensitive data, chunk the configs into meaningful sections, generate semantic embeddings using OpenAI's API, and store them into a Redis vector database for efficient similarity search.
 
 ---
 
@@ -59,8 +56,6 @@ Put your device config files (*.conf) in the `./configs` folder. Filename should
 ```
 python main_ingest.py
 ```
-
-You should see logs indicating processed devices and sections ingested.
 
 ---
 
